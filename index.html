@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' https://unpkg.com https://unpkg.com/leaflet@1.7.1/dist/leaflet.css;  script-src 'self' https://unpkg.com/leaflet@1.7.1/dist/leaflet.js; style-src 'self' 'unsafe-inline' https://unpkg.com https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+    <!-- ============================  Leaflet  ============================================= -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+    
+    <!-- ============================  /Leaflet  ============================================= -->
+
+    <link rel="styleshhet" type="text/css" href="index.css">
+
+</head>
+
+<body style="background: white;">
+    <div id="mapid"></div>
+
+<!-- Make sure you put this AFTER Leaflet's CSS -->
+<!-- ============================  Leaflet  ============================================= -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+<!-- ============================  /Leaflet  ============================================= -->
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

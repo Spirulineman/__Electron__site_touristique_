@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "electron": "^11.2.3"
+  },
+  "devDependencies": {
+    "leaflet": "^1.7.1"
+  },
+  "name": "leaflet_1_",
+  "version": "1.0.0",
+  "description": "on verra bien",
+  "main": "index.js",
+  "scripts": {
+     "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spirulineman/__Electron__site_touristique_.git"
+  },
+  "author": "Le_Druide",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spirulineman/__Electron__site_touristique_/issues"
+  },
+  "homepage": "https://github.com/Spirulineman/__Electron__site_touristique_#readme"
+}
